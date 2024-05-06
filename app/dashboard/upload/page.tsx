@@ -1,7 +1,11 @@
+import FileUploader from "@/components/FileUploader"
+
 function page() {
-  return (
-    <div>page</div>
-  )
+    return (
+        <div>
+            <FileUploader />
+        </div>
+    )
 }
 
 export default page
