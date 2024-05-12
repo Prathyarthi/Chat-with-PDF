@@ -60,7 +60,7 @@ function useUpload() {
 
             setStatus(StatusText.GENERATING)
 
-            await generateEmbeddings(fileIdToUpload)
+            // await generateEmbeddings(fileIdToUpload)
             
             setFileId(fileIdToUpload)
         })
